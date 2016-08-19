@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-121312312
+가자 신구다이가쿠
 </body>
 </html>
