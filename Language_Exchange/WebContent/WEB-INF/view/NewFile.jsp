@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-가자 신구다이가쿠123sadkjlasdjkl;asd;kljas
+가자 신구다이가쿠 테스토
 </body>
 </html>
