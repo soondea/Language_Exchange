@@ -1,0 +1,31 @@
+<%@page import="java.util.List"%>
+<%@page import="DTO.TestDTO"%>
+<%@page import="Manager.DatabaseManager"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<%
+		DatabaseManager dbManager = new DatabaseManager();
+
+		String testQuery = "SELECT idx , name FROM aaa ; ";
+
+		List<TestDTO> testList = dbManager.getRecords(testQuery, TestDTO.class);
+	%>
+
+
+	<%
+		for(TestDTO tdto : testList){
+			out.println(tdto.getIdx());
+			out.println(tdto.getName());
+			out.println("\r\n");
+		}
+	%>
+
+</body>
+</html>
