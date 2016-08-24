@@ -30,7 +30,7 @@
 											<li><a href="index.html">Home</a></li>
 											<li><a href="generic.jsp">Generic</a></li>
 											<li><a href="elements.jsp">Elements</a></li>
-											<li><a href="list.jsp">Sign Up</a></li>
+											<li><a href="firstJoinForm.jsp">Sign Up</a></li>
 											<li><a href="#">Log In</a></li>
 										</ul>
 									</div>
