@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context>
+ 
+ <!-- DB 관련 정보 -->
+ <!-- 테스트용이니까 실제용으로 바꾸세여 -->
+<Resource
+name="jdbc/shinguprojectdb" 
+auth="Container" 
+type="javax.sql.DataSource"
+factory="org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory"
+driverClassName="org.gjt.mm.mysql.Driver"
+url="jdbc:mysql://localhost:3306/ztest?autoReconnect=true"
+username="root"
+password="1234"
+maxActive="100"
+maxIdle="30"
+maxWait="1000"
+removeAbandoned="true"
+removeAbandonedTimeout="60"
+/>
+
+
+</Context>

@@ -15,13 +15,15 @@
 </head>
 <body>
 
+
+
 	<!-- Page Wrapper -->
 	<div id="page-wrapper">
 
 		<!-- Header -->
 		<header id="header">
 		<h1>
-			<a href="index.html">Spectral</a>
+			<a href="index.jsp">Spectral</a>
 		</h1>
 		<nav id="nav">
 		<ul>
@@ -42,7 +44,7 @@
 
 		<section>
 
-		<form method="post" action="#">
+		<form name="sipalform" method="post" action="#">
 
 			<div class="6u 12u$(xsmall)">
 				<input type="text" name="demo-name" id="demo-name" value=""
@@ -55,12 +57,12 @@
 			</div>
 			<br>
 			<div class="6u$ 12u$(xsmall)">
-				<input type="text" name="demo-email" id="demo-email" value=""
+				<input type="password" name="demo-email" id="demo-email" value=""
 					placeholder="Password" />
 			</div>
 			<br>
 			<div class="6u$ 12u$(xsmall)">
-				<input type="text" name="demo-email" id="demo-email" value=""
+				<input type="password" name="demo-email" id="demo-email" value=""
 					placeholder="PasswordCheck" />
 			</div>
 			<br>
@@ -74,14 +76,26 @@
 					placeholder="Email" />
 
 			</div>
-
 			<br>
-			<h4>모국어</h4>
-			<input type="radio" id="demo-priority-low" name="demo-priority"
-				checked> <label for="demo-priority-normal">한국어</label>
-			&nbsp;&nbsp;&nbsp; <input type="radio" id="demo-priority-normal"
-				name="demo-priority"> <label for="demo-priority-normal">일본어</label>
+			<h4>자격증</h4>
 
+			<div class="4u 12u$(small)">
+				<input type="radio" id="N1" name="N" checked> 
+				<label for="N1">JLPT N1</label>
+				<input type="radio" id="N2" name="N">
+				<label for="N2">JLPT N2</label>
+				<input type="radio" id="N3" name="N">
+				<label for="N3">JLPT N3</label>				
+			</div><br>
+
+			<h4>모국어</h4>
+
+			<div class="4u 12u$(small)">
+				<input type="radio" id="demo-priority-low" name="a" checked>
+				<label for="demo-priority-low">한국어</label>
+				<input type="radio" id="demo-priority-normal" name="a"> 
+				<label for="demo-priority-normal">일본어</label>
+			</div><br>
 
 			<h4>소갯말</h4>
 			<div class="12u$">
