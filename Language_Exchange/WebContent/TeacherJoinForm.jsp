@@ -52,8 +52,8 @@
 			</div>
 			<br>
 			<div class="6u$ 12u$(xsmall)">
-				<input type="text" name="demo-email" id="demo-email" value=""
-					placeholder="ID" />
+				<input type="email" name="demo-email" id="demo-email" value=""
+					placeholder="Email" />
 			</div>
 			<br>
 			<div class="6u$ 12u$(xsmall)">
@@ -64,17 +64,6 @@
 			<div class="6u$ 12u$(xsmall)">
 				<input type="password" name="demo-email" id="demo-email" value=""
 					placeholder="PasswordCheck" />
-			</div>
-			<br>
-			<div class="6u$ 12u$(xsmall)">
-				<input type="text" name="demo-email" id="demo-email" value=""
-					placeholder="SkypeID" />
-			</div>
-			<br>
-			<div class="6u$ 12u$(xsmall)">
-				<input type="email" name="demo-email" id="demo-email" value=""
-					placeholder="Email" />
-
 			</div>
 			<br>
 			<h4>자격증</h4>

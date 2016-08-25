@@ -50,8 +50,8 @@
 			</div>
 			<br>
 			<div class="6u$ 12u$(xsmall)">
-				<input type="text" name="demo-email" id="demo-email" value=""
-					placeholder="ID" />
+				<input type="email" name="demo-email" id="demo-email" value=""
+					placeholder="Email" />
 			</div>
 			<br>
 			<div class="6u$ 12u$(xsmall)">
@@ -64,24 +64,15 @@
 					placeholder="PasswordCheck" />
 			</div>
 			<br>
-			<div class="6u$ 12u$(xsmall)">
-				<input type="text" name="demo-email" id="demo-email" value=""
-					placeholder="SkypeID" />
-			</div>
-			<br>
-			<div class="6u$ 12u$(xsmall)">
-				<input type="email" name="demo-email" id="demo-email" value=""
-					placeholder="Email" />
-
-			</div>
 
 			<br>
 			<h4>모국어</h4>
-			<input type="radio" id="demo-priority-low" name="demo-priority"
-				checked> <label for="demo-priority-normal">한국어</label>
-			&nbsp;&nbsp;&nbsp; <input type="radio" id="demo-priority-normal"
-				name="demo-priority"> <label for="demo-priority-normal">일본어</label>
-
+			<div class="4u 12u$(small)">
+				<input type="radio" id="demo-priority-low" name="a" checked>
+				<label for="demo-priority-low">한국어</label>
+				<input type="radio" id="demo-priority-normal" name="a"> 
+				<label for="demo-priority-normal">일본어</label>
+			</div><br>
 
 			<h4>소갯말</h4>
 			<div class="12u$">
