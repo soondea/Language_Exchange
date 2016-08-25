@@ -20,7 +20,7 @@
 		<!-- Header -->
 		<header id="header">
 		<h1>
-			<a href="index.html">Spectral</a>
+			<a href="index.jsp">Spectral</a>
 		</h1>
 		<nav id="nav">
 		<ul>
