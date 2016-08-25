@@ -4,13 +4,12 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-<link rel="stylesheet" href="assets/css/join.css" />
+<link rel="stylesheet" href="assets/css/main.css" />
 <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-<title>Elements Jsp Test</title>
+<title>List Jsp Test</title>
 </head>
 <body>
 
@@ -20,14 +19,14 @@
 		<!-- Header -->
 		<header id="header">
 		<h1>
-			<a href="index.jsp">Spectral</a>
+			<a href="index.html">Spectral</a>
 		</h1>
 		<nav id="nav">
 		<ul>
 			<li class="special"><a href="#menu" class="menuToggle"><span>Menu</span></a>
 				<div id="menu">
 					<ul>
-						<li><a href="index.jsp">Home</a></li>
+						<li><a href="index.html">Home</a></li>
 						<li><a href="generic.html">Generic</a></li>
 						<li><a href="elements.html">Elements</a></li>
 						<li><a href="#">Sign Up</a></li>
@@ -38,24 +37,56 @@
 		</nav> </header>
 
 		<!-- Main -->
-
 		<article id="main"> <header>
-		<h1>회원 가입</h1>
-		<p>Language_Exchange에 오신것을 환영 합니다.</p>
-		<p>원하시는 회원을 선택하여 주세요.</p>
-		</header> <section> <br>
-		<center>
-			<div class="6u 12u$(medium)">
-
-				<ul class="actions vertical">
-
-					<li><a href="joinForm.jsp" class="button fit">일반가입</a></li>
-					<li><a href="TeacherJoinForm.jsp" class="button fit">강사가입</a></li>
-
-				</ul>
-
-			</div>
-		</center>
+		<h5>강사 목록</h5>
+		<p>쿄우와 난가츠 난니치 데스카~~????</p>
+		</header> <section>
+		<h4>Table</h4>
+		<h5>Default</h5>
+		<div class="table-wrapper">
+			<table>
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>Description</th>
+						<th>Price</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><img src=images/src2.JPG width="120" height="90"></td>
+						<td>Ante turpis integer aliquet porttitor.</td>
+						<td>29.99</td>
+					</tr>
+					<tr>
+						<td><img src=images/src2.JPG width="120" height="90"></td>
+						<td>Vis ac commodo adipiscing arcu aliquet.</td>
+						<td>19.99</td>
+					</tr>
+					<tr>
+						<td><img src=images/src2.JPG width="120" height="90"></td>
+						<td>Morbi faucibus arcu accumsan lorem.</td>
+						<td>29.99</td>
+					</tr>
+					<tr>
+						<td><img src=images/src2.JPG width="120" height="90"></td>
+						<td>Vitae integer tempus condimentum.</td>
+						<td>19.99</td>
+					</tr>
+					<tr>
+						<td><img src=images/src2.JPG width="120" height="90"></td>
+						<td>Ante turpis integer aliquet porttitor.</td>
+						<td>29.99</td>
+					</tr>
+				</tbody>
+				<tfoot>
+					<tr>
+						<td colspan="2"></td>
+						<td>100.00</td>
+					</tr>
+				</tfoot>
+			</table>
+		</div>
 
 
 		</section> </article>

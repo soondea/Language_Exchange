@@ -37,12 +37,59 @@
 		</nav> </header>
 
 		<!-- Main -->
-		<article id="main"> <header>
-		<h5>강사 목록</h5>
-		<p>쿄우와 난가츠 난니치 데스카~~????</p>
-		</header> <section>
-		<h4>Table</h4>
-		<h5>Default</h5>
+		<article id="main"> <section>
+		<h4>검색 하기</h4>
+		<form method="post" action="#">
+			<div class="row uniform">
+				<div class="4u 12u$(small)">
+					<div class="select-wrapper">
+						<select name="demo-category" id="demo-category">
+							<option value="">- Category -</option>
+							<option value="1">Manufacturing</option>
+							<option value="1">Shipping</option>
+							<option value="1">Administration</option>
+							<option value="1">Human Resources</option>
+						</select>
+					</div>
+				</div>
+				<div class="4u 12u$(small)">
+					<div class="select-wrapper">
+						<select name="demo-category" id="demo-category">
+							<option value="">- Category -</option>
+							<option value="1">Manufacturing</option>
+							<option value="1">Shipping</option>
+							<option value="1">Administration</option>
+							<option value="1">Human Resources</option>
+						</select>
+					</div>
+				</div>
+				<div class="4u 12u$(small)">
+					<ul class="actions">
+						<li><input type="submit" value="검색하자" class="special" /></li>
+					</ul>
+				</div>
+			</div>
+			<br>
+			<div class="4u 12u$(small)">
+				<input type="radio" id="demo-priority-low" name="demo-priority"
+					checked> 
+				<label for="demo-priority-low">이치</label> 
+				<input type="radio" id="demo-priority-normal" name="demo-priority">
+				<label for="demo-priority-normal">니</label> 
+				<input type="radio" id="demo-priority-high" name="demo-priority"> 
+				<label for="demo-priority-high">상~</label>
+			</div>
+
+
+
+		</form>
+		</section>
+
+
+
+
+
+		<h4>강사 목록</h4>
 		<div class="table-wrapper">
 			<table>
 				<thead>
@@ -89,7 +136,7 @@
 		</div>
 
 
-		</section> </article>
+		</article>
 
 		<!-- Footer -->
 		<footer id="footer">
