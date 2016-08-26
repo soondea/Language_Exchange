@@ -45,22 +45,22 @@
 		<form method="post" action="#">
 
 			<div class="6u 12u$(xsmall)">
-				<input type="text" name="demo-name" id="demo-name" value=""
+				<input type="text" name="name" id="name" 
 					placeholder="Name" />
 			</div>
 			<br>
 			<div class="6u$ 12u$(xsmall)">
-				<input type="email" name="demo-email" id="demo-email" value=""
+				<input type="email" name="email" id="email" 
 					placeholder="Email" />
 			</div>
 			<br>
 			<div class="6u$ 12u$(xsmall)">
-				<input type="text" name="demo-email" id="demo-email" value=""
+				<input type="password" name="password" id="password" 
 					placeholder="Password" />
 			</div>
 			<br>
 			<div class="6u$ 12u$(xsmall)">
-				<input type="text" name="demo-email" id="demo-email" value=""
+				<input type="password" name="passwordCheck" id="passwordCheck"
 					placeholder="PasswordCheck" />
 			</div>
 			<br>

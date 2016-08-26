@@ -31,7 +31,7 @@
 											<li><a href="generic.jsp">Generic</a></li>
 											<li><a href="elements.jsp">Elements</a></li>
 											<li><a href="firstJoinForm.jsp">Sign Up</a></li>
-											<li><a href="#">Log In</a></li>
+											<li><a href="loginForm.jsp">Log In</a></li>
 										</ul>
 									</div>
 								</li>
