@@ -1,10 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<%@page import="java.util.List"%>
-<%@page import="vo.member.Member"%>
-<%@page import="dao.member.MemberDao"%>
-<%@page import="utils.manager.DatabaseManager"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -19,6 +14,8 @@
 <title>Insert title here</title>
 </head>
 <body>
+
+
 
 	<!-- Page Wrapper -->
 	<div id="page-wrapper">
@@ -47,38 +44,51 @@
 
 		<section>
 
-		<form method="post" action="join.do">
+		<form name="sipalform" method="post" action="#">
 
 			<div class="6u 12u$(xsmall)">
-				<input type="text" name="name" placeholder="name" />
-				<c:if test="${errors.id}">name input</c:if>
+				<input type="text" name="demo-name" id="demo-name" value=""
+					placeholder="Name" />
+			</div>
+			<br>
+			<div class="6u$ 12u$(xsmall)">
+				<input type="email" name="demo-email" id="demo-email" value=""
+					placeholder="Email" />
+			</div>
+			<br>
+			<div class="6u$ 12u$(xsmall)">
+				<input type="password" name="demo-email" id="demo-email" value=""
+					placeholder="Password" />
+			</div>
+			<br>
+			<div class="6u$ 12u$(xsmall)">
+				<input type="password" name="demo-email" id="demo-email" value=""
+					placeholder="PasswordCheck" />
+			</div>
+			<br>
+			<h4>자격증</h4>
 
-			</div>
-			<br>
-			<div class="6u$ 12u$(xsmall)">
-				<input type="email" name="email" placeholder="email" />
-			</div>
-			<br>
-			<div class="6u$ 12u$(xsmall)">
-				<input type="text" name="password" placeholder="password" />
-			</div>
-			<br>
-			<div class="6u$ 12u$(xsmall)">
-				<input type="text" name="passwordcheck" placeholder="passwordCheck" />
-			</div>
-			<br> <br>
-			<h4>모국어</h4>
 			<div class="4u 12u$(small)">
-				<input type="radio" id="demo-priority-low" name="choice" value="korea" checked>
+				<input type="radio" id="N1" name="N" checked> 
+				<label for="N1">JLPT N1</label>
+				<input type="radio" id="N2" name="N">
+				<label for="N2">JLPT N2</label>
+				<input type="radio" id="N3" name="N">
+				<label for="N3">JLPT N3</label>				
+			</div><br>
+
+			<h4>모국어</h4>
+
+			<div class="4u 12u$(small)">
+				<input type="radio" id="demo-priority-low" name="a" checked>
 				<label for="demo-priority-low">한국어</label>
-				<input type="radio" id="demo-priority-normal" name="choice" value="japan">
+				<input type="radio" id="demo-priority-normal" name="a"> 
 				<label for="demo-priority-normal">일본어</label>
-			</div>
-			<br>
+			</div><br>
 
 			<h4>소갯말</h4>
 			<div class="12u$">
-				<textarea name="intro"
+				<textarea name="demo-message" id="demo-message"
 					placeholder="Enter your message" rows="6"></textarea>
 			</div>
 			<br>

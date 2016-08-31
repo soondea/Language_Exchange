@@ -32,7 +32,7 @@
 						<li><a href="generic.jsp">Generic</a></li>
 						<li><a href="elements.jsp">Elements</a></li>
 						<li><a href="list.jsp">Sign Up</a></li>
-						<li><a href="http://hentaku.net/rank/">Log In</a></li>
+						<li><a href="login.jsp">Log In</a></li>
 					</ul>
 				</div></li>
 		</ul>
@@ -42,16 +42,14 @@
 
 		<section>
 		<br><br><br>
-		<form method="post" action="#">
+		<form method="post" action="login.do">
 			<center>
 			<div class="6u 12u$(xsmall)">
-				<input type="text" name="demo-name" id="demo-name" value=""
-					placeholder="Email" />
+				<input type="text" name="email" placeholder="Email" />
 			</div>
 			<br>
 			<div class="6u$ 12u$(xsmall)">
-				<input type="password" name="demo-email" id="demo-email" value=""
-					placeholder="Password" />
+				<input type="password" name="password" placeholder="Password" />
 			</div>
 			<br>
 	

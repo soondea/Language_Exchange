@@ -1,4 +1,4 @@
-package Utils;
+package utils;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
@@ -126,7 +126,9 @@ public class ClassUtil {
 
 		List<Field> fieldList = getUsefullFields(cls);
 		List<Method> setterList = getSetterMethod(cls);
-
+		
+		
+		
 		for (Field field : fieldList) {
 			String fieldName = field.getName().toUpperCase();
 

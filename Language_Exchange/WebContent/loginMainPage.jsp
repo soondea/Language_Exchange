@@ -25,14 +25,15 @@
 						<nav id="nav">
 							<ul>
 								<li class="special">
+								
 									<a href="#menu" class="menuToggle"><span>Menu</span></a>
 									<div id="menu">
 										<ul>
 											<li><a href="index.html">Home</a></li>
 											<li><a href="generic.jsp">Generic</a></li>
 											<li><a href="elements.jsp">Elements</a></li>
-											<li><a href="firstJoinForm.jsp">Sign Up</a></li>
-											<li><a href="loginForm.jsp">Log In</a></li>
+											<li><a href="myPage.jsp">My Page</a></li>
+											<li><a href="loginForm.jsp">Log Out</a></li>
 										</ul>
 									</div>
 								</li>

@@ -24,6 +24,9 @@
 		</h1>
 		<nav id="nav">
 		<ul>
+		<li><a href="elements.jsp">Home</a></li>
+		<li><a href="elements.jsp">Home</a></li>
+		<li><a href="elements.jsp">Home</a></li>
 			<li class="special"><a href="#menu" class="menuToggle"><span>Menu</span></a>
 				<div id="menu">
 					<ul>

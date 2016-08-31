@@ -100,17 +100,31 @@
 					</tr>
 				</thead>
 				<tbody>
-				<%
-     				  for(int k=0;k<5;k++){
-   				 %>
 					<tr>
 						<td><img src=images/src2.JPG width="120" height="90"></td>
 						<td>Ante turpis integer aliquet porttitor.</td>
 						<td>29.99</td>
 					</tr>
-				<%
-    				}
-    			%>	
+					<tr>
+						<td><img src=images/src2.JPG width="120" height="90"></td>
+						<td>Vis ac commodo adipiscing arcu aliquet.</td>
+						<td>19.99</td>
+					</tr>
+					<tr>
+						<td><img src=images/src2.JPG width="120" height="90"></td>
+						<td>Morbi faucibus arcu accumsan lorem.</td>
+						<td>29.99</td>
+					</tr>
+					<tr>
+						<td><img src=images/src2.JPG width="120" height="90"></td>
+						<td>Vitae integer tempus condimentum.</td>
+						<td>19.99</td>
+					</tr>
+					<tr>
+						<td><img src=images/src2.JPG width="120" height="90"></td>
+						<td>Ante turpis integer aliquet porttitor.</td>
+						<td>29.99</td>
+					</tr>
 				</tbody>
 				<tfoot>
 					<tr>

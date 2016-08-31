@@ -1,4 +1,4 @@
-package Utils;
+package utils;
 
 import java.sql.Connection;
 import java.sql.SQLException;
@@ -55,11 +55,12 @@ public class DatabaseUtil {
 		Context initCtx;
 		initCtx = new InitialContext();
 
+		
 		Context envCtx = (Context) initCtx.lookup("java:comp/env");
-		DataSource dataSource = (DataSource) envCtx.lookup("jdbc/shinguprojectdb");
-
+		DataSource dataSource = (DataSource) envCtx.lookup("jdbc/board");
+		
 		conn = dataSource.getConnection();
-
+		
 		return conn;
 	}
 }

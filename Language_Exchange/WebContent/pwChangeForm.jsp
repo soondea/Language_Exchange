@@ -1,10 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<%@page import="java.util.List"%>
-<%@page import="vo.member.Member"%>
-<%@page import="dao.member.MemberDao"%>
-<%@page import="utils.manager.DatabaseManager"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -26,7 +21,7 @@
 		<!-- Header -->
 		<header id="header">
 		<h1>
-			<a href="index.jsp">Spectral</a>
+			<a href="index.html">Spectral</a>
 		</h1>
 		<nav id="nav">
 		<ul>
@@ -43,50 +38,28 @@
 		</ul>
 		</nav> </header>
 		<br>
-		<h4>회원가입</h4>
+		<h4>비밀번호 변경</h4>
 
 		<section>
-
-		<form method="post" action="join.do">
-
-			<div class="6u 12u$(xsmall)">
-				<input type="text" name="name" placeholder="name" />
-				<c:if test="${errors.id}">name input</c:if>
-
-			</div>
-			<br>
-			<div class="6u$ 12u$(xsmall)">
-				<input type="email" name="email" placeholder="email" />
-			</div>
-			<br>
-			<div class="6u$ 12u$(xsmall)">
-				<input type="text" name="password" placeholder="password" />
-			</div>
-			<br>
-			<div class="6u$ 12u$(xsmall)">
-				<input type="text" name="passwordcheck" placeholder="passwordCheck" />
-			</div>
-			<br> <br>
-			<h4>모국어</h4>
-			<div class="4u 12u$(small)">
-				<input type="radio" id="demo-priority-low" name="choice" value="korea" checked>
-				<label for="demo-priority-low">한국어</label>
-				<input type="radio" id="demo-priority-normal" name="choice" value="japan">
-				<label for="demo-priority-normal">일본어</label>
-			</div>
-			<br>
-
-			<h4>소갯말</h4>
-			<div class="12u$">
-				<textarea name="intro"
-					placeholder="Enter your message" rows="6"></textarea>
-			</div>
-			<br>
+		<br><br><br>
+		<form method="post" action="changePw.do">
 			<center>
+			<div class="6u 12u$(xsmall)">
+				<input type="text" name="password" placeholder="기존 비밀번호" />
+			</div>
+			<br>
+			<div class="6u$ 12u$(xsmall)">
+				<input type="password" name="newPassword" placeholder="새로운 비밀번호" />
+			</div>
+			<br>
+			<div class="6u$ 12u$(xsmall)">
+				<input type="password" name="newPasswordCheck" placeholder="새로운 비밀번호 체크" />
+			</div>
+			<br>
+	
 				<div class="12u$">
 					<ul class="actions">
-						<li><input type="submit" value="회원가입" class="special" /></li>
-						<li><input type="reset" value="다시쓰기" /></li>
+						<li><input type="submit" value="확인" class="special" /></li>
 					</ul>
 				</div>
 			</center>
@@ -96,7 +69,7 @@
 
 		</form>
 		</section>
-
+		<br>
 		<!-- Footer -->
 		<footer id="footer">
 		<ul class="icons">
